@@ -36,6 +36,7 @@ chapters:
       - file: Chapters/Interpolation and curve fitting/Interpolation/Polynomial interpolation
       - file: Chapters/Interpolation and curve fitting/Interpolation/Splines
       - file: Chapters/Interpolation and curve fitting/Interpolation/Radial basis functions
+      - file: Chapters/Interpolation and curve fitting/Interpolation/Summary of interpolation
     - file: Chapters/Interpolation and curve fitting/Curve fitting/Curve fitting 
       sections:
       - file: Chapters/Interpolation and curve fitting/Curve fitting/Linear least squares regression

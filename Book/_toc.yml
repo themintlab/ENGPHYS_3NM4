@@ -40,6 +40,7 @@ chapters:
     - file: Chapters/Interpolation and curve fitting/Curve fitting/Curve fitting 
       sections:
       - file: Chapters/Interpolation and curve fitting/Curve fitting/Linear least squares regression
+      - file: Chapters/Interpolation and curve fitting/Curve fitting/Weighted linear least squares
       - file: Chapters/Interpolation and curve fitting/Curve fitting/Polyfit
       - file: Chapters/Interpolation and curve fitting/Curve fitting/Best fit radial basis functions
 

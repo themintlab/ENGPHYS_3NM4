@@ -40,6 +40,7 @@ repository:
 html:
   use_repository_button: true
   use_issues_button: true
+  include_plotly_js: true
   analytics:
     google_analytics_id: G-R9308D4F0V
 

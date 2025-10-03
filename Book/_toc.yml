@@ -49,9 +49,10 @@ chapters:
     - file: Chapters/Root finding/Polynomial roots
     - file: Chapters/Root finding/Closed methods
     - file: Chapters/Root finding/Open methods
-    - file: Chapters/Root finding/Newton-Raphson method
-    - file: Chapters/Root finding/Basins of attraction
-    - file: Chapters/Root finding/Global convergence methods
+      sections:
+      - file: Chapters/Root finding/Newton-Raphson method
+      - file: Chapters/Root finding/Basins of attraction
+      - file: Chapters/Root finding/Global convergence methods
 
   - file: Chapters/Optimization/Optimization
     sections:

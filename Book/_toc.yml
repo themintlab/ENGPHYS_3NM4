@@ -62,9 +62,10 @@ chapters:
       - file: Chapters/Optimization/Gradient based optimizers
       - file: Chapters/Optimization/Indefinite systems
       - file: Chapters/Optimization/Trust region methods
+    - file: Chapters/Optimization/Equality constraints
     - file: Chapters/Optimization/Nonlinear least squares
     - file: Chapters/Optimization/Neural networks
-    - file: Chapters/Optimization/Equality constraints
+    
   
 
   - file: Chapters/Differentiation and integration/Differentiation and integration

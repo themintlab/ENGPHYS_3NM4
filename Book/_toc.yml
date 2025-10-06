@@ -58,11 +58,12 @@ chapters:
     sections:
     - file: Chapters/Optimization/Closed methods
     - file: Chapters/Optimization/Open methods
-    - file: Chapters/Optimization/Gradient based optimizers
-    - file: Chapters/Optimization/Indefinite systems
-    - file: Chapters/Optimization/Trust region methods
+      sections:
+      - file: Chapters/Optimization/Gradient based optimizers
+      - file: Chapters/Optimization/Indefinite systems
+      - file: Chapters/Optimization/Trust region methods
     - file: Chapters/Optimization/Nonlinear least squares
-    - file: Chapters/Interpolation and curve fitting/Curve fitting/Neural networks
+    - file: Chapters/Optimization/Neural networks
     - file: Chapters/Optimization/Equality constraints
   
 

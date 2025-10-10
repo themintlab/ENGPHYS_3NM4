@@ -7,4 +7,5 @@ numpy
 nbconvert
 scipy
 sympy
-plotly 
+plotly
+pandas

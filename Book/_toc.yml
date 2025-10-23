@@ -84,6 +84,7 @@ chapters:
         - file: Chapters/Differentiation and integration/Integration/Reimann's integrals
         - file: Chapters/Differentiation and integration/Integration/Trapezoid rule
         - file: Chapters/Differentiation and integration/Integration/Simpson's rules
+        - file: Chapters/Differentiation and integration/Integration/Newton-Cotes in practice
       - file: Chapters/Differentiation and integration/Integration/Romberg rule
       - file: Chapters/Differentiation and integration/Integration/Gaussian quadrature
 

@@ -83,7 +83,7 @@ chapters:
         sections:
         - file: Chapters/Differentiation and integration/Integration/Reimann's integrals
         - file: Chapters/Differentiation and integration/Integration/Trapezoid rule
-        - file: Chapters/Differentiation and integration/Integration/Simpson's rule
+        - file: Chapters/Differentiation and integration/Integration/Simpson's rules
       - file: Chapters/Differentiation and integration/Integration/Romberg rule
       - file: Chapters/Differentiation and integration/Integration/Gaussian quadrature
 

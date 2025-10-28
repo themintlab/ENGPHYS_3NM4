@@ -94,8 +94,8 @@ chapters:
       sections:
       - file: Chapters/Differential equations/Initial value problems/Explicit methods
         sections:
-        - file: Chapters/Differential equations/Initial value problems/First order Runge Kutta
-        - file: Chapters/Differential equations/Initial value problems/General Runge Kutta
+        - file: Chapters/Differential equations/Initial value problems/First order Runge-Kutta
+        - file: Chapters/Differential equations/Initial value problems/General Runge-Kutta
         - file: Chapters/Differential equations/Initial value problems/Adaptive time stepping
       - file: Chapters/Differential equations/Initial value problems/Implicit methods
     - file: Chapters/Differential equations/Boundary value problems/Boundary_value_problems

@@ -100,7 +100,7 @@ chapters:
       - file: Chapters/Differential equations/Initial value problems/Implicit methods and stiffness
       - file: Chapters/Differential equations/Initial value problems/Implicit Runge-Kutta methods
       - file: Chapters/Differential equations/Initial value problems/Multistep methods
-      - file: Chapters/Differential equations/Initial value problems/Systems_of_equations
+      - file: Chapters/Differential equations/Initial value problems/Systems of equations
       - file: Chapters/Differential equations/Initial value problems/Reduction of order
       - file: Chapters/Differential equations/Initial value problems/Summary
     - file: Chapters/Differential equations/Boundary value problems/Boundary_value_problems

@@ -24,8 +24,9 @@ jobs:
         pip install --upgrade pip
         pip install -r Book/requirements.txt
     
-    - name: Build the book
+    - name: Clean and Build the book
       run: |
+        jupyter-book clean ./Book --all
         jupyter-book build ./Book
 
     - name: Upload artifact

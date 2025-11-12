@@ -24,9 +24,12 @@ jobs:
         pip install --upgrade pip
         pip install -r Book/requirements.txt
     
-    - name: Clean and Build the book
+    - name: Remove stale build directory
       run: |
-        jupyter-book clean ./Book --all
+        rm -rf Book/_build
+
+    - name: Build the book from Chapters (Fresh Build)
+      run: |
         jupyter-book build ./Book
 
     - name: Upload artifact

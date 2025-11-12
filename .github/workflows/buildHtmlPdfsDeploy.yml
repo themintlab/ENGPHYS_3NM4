@@ -30,7 +30,7 @@ jobs:
 
     - name: Build the book from Chapters (Fresh Build)
       run: |
-        jupyter-book build ./Book
+        jupyter-book build ./Book --verbose || exit 1
 
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3

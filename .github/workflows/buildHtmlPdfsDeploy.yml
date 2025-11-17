@@ -27,15 +27,8 @@ jobs:
     - name: Clean and Build the book
       run: |
           jupyter-book clean ./Book --all
+          rm -rf Book/_build
           jupyter-book build ./Book
-    
-   # - name: Remove stale build directory
-   #   run: |
-   #     rm -rf Book/_build
-
-    #- name: Build the book from Chapters (Fresh Build)
-    #  run: |
-    #    jupyter-book build ./Book || exit 1
 
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3

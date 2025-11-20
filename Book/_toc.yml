@@ -88,7 +88,28 @@ chapters:
       - file: Chapters/Differentiation and integration/Integration/Romberg rule
       - file: Chapters/Differentiation and integration/Integration/Gaussian quadrature
 
-
+  - file: Chapters/Differential equations/Differential equations
+    sections:
+    - file: Chapters/Differential equations/Initial value problems/Initial value problems
+      sections:
+      - file: Chapters/Differential equations/Initial value problems/Explicit methods
+        sections:
+        - file: Chapters/Differential equations/Initial value problems/First order Runge-Kutta
+        - file: Chapters/Differential equations/Initial value problems/General Runge-Kutta
+      - file: Chapters/Differential equations/Initial value problems/Adaptive time stepping
+      - file: Chapters/Differential equations/Initial value problems/Implicit methods and stiffness
+      - file: Chapters/Differential equations/Initial value problems/Implicit Runge-Kutta methods
+      - file: Chapters/Differential equations/Initial value problems/Multistep methods
+      - file: Chapters/Differential equations/Initial value problems/Systems of equations
+      - file: Chapters/Differential equations/Initial value problems/Reduction of order
+      - file: Chapters/Differential equations/Initial value problems/Summary
+    - file: Chapters/Differential equations/Boundary value problems/Boundary_value_problems
+      sections:
+      - file: Chapters/Differential equations/Boundary value problems/Shooting method
+      - file: Chapters/Differential equations/Boundary value problems/Collocation methods
+      - file: Chapters/Differential equations/Boundary value problems/Finite_difference_method
+      - file: Chapters/Differential equations/Boundary value problems/Finite_volume
+    - file: Chapters/Differential equations/Partial differential equations/Partial_differential_equations
 
   - file: Chapters/Finite element method/Finite element method
     sections:

@@ -12,7 +12,10 @@ This is an introduction to the book. Below are the main sections:
 * Expand functions as Taylor series 
 * Achieve higher order accuracy by 
 * * approximating higher order derivatives.
-* * cancelling over and under prediction by averaging. 
+* * cancelling over and under prediction by averaging.
+
+
+<!--
 
 AI is fast. Use your head before the computer or it will run away with you! 
 
@@ -28,3 +31,4 @@ NB: The audio overview is AI generated from the notes. Although it is well groun
 This resource is being developed in part through the [McMaster University Open Educational Resources grant](https://mi.mcmaster.ca/oer-grant).
 
 ![Meme](Meme.png)
+-->

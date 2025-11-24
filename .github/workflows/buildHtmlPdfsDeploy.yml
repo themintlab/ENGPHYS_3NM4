@@ -27,7 +27,7 @@ jobs:
     - name: Clean and Build the book
       run: |
           jupyter-book clean ./Book/ --all
-          #rm -rf Book/_build
+          rm -rf Book/_build
           jupyter-book build ./Book
 
     - name: Upload artifact

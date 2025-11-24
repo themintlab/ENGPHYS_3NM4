@@ -5,7 +5,7 @@ options:
   numbered: false #false
 
 chapters:
-  - file: Chapters/Numerical error/Numerical error intro
+  - file: Chapters/Numerical error/Numerical error intro.ipynb
   #   sections:
   #   - file: Chapters/Numerical error/Roundoff error and finite precision representations
   #   - file: Chapters/Numerical error/True_and_approximate_error

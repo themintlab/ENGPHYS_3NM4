@@ -3,6 +3,7 @@ sphinx==7.2.6
 myst-nb==1.1.0
 pyppeteer
 matplotlib
+networkx
 ipywidgets
 IPython
 numpy

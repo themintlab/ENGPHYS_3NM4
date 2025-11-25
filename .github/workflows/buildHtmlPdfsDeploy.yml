@@ -24,16 +24,29 @@ jobs:
         pip install --upgrade pip
         pip install -r Book/requirements.txt
 
-    - name: Clean and Build the book
+    # - name: Clean and Build the book
+    #   run: |
+    #       jupyter-book clean ./Book/ --all
+    #       #rm -rf Book/_build
+    #       jupyter-book build ./Book
+
+    - name: Isolate and Build the Book in a Clean Directory
       run: |
-          jupyter-book clean ./Book/ --all
-          #rm -rf Book/_build
-          jupyter-book build ./Book
+        mkdir clean_book_build
+        cd clean_book_build
+        cp -r ../Book/Chapters .
+        cp -r ../Book/_static .
+        cp ../Book/index.md .
+        cp ../Book/_toc.yml .
+        cp ../Book/_config.yml .
+        jupyter-book build .
+
 
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
       with:
-        path: "Book/_build/html"
+        #path: "Book/_build/html"
+        path: "clean_book_build/_build/html"
         
   deploy:
     environment:

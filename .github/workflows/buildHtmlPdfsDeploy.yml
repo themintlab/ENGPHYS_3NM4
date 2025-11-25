@@ -34,7 +34,7 @@ jobs:
       run: |
         mkdir clean_book_build
         cd clean_book_build
-        cp -r ../Book/Chapters .
+        # cp -r ../Book/Chapters .
         cp -r ../Book/_static .
         cp ../Book/index.md .
         cp ../Book/_toc.yml .

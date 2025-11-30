@@ -31,7 +31,7 @@ jobs:
           jupyter-book build ./Book
 
     - name: Copy Custom Assets
-      run: cp -r Book/assets _build/html/Book
+      run: cp -r Book/assets Book/_build/html/Book/assets
 
     # - name: Isolate and Build the Book in a Clean Directory
     #   run: |

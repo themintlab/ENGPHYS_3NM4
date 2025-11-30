@@ -43,6 +43,7 @@ html:
   include_plotly_js: true
   analytics:
     google_analytics_id: G-R9308D4F0V
+  extra_static_paths: ["Book/assets"]
 
 sphinx:
   config:

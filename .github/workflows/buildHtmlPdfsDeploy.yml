@@ -32,8 +32,8 @@ jobs:
 
     - name: Copy Custom Assets
       run: |
-          mkdir -p Book/_build/html/assets
-          cp -r Book/assets Book/_build/html/assets
+          mkdir -p Book/_build/html/Book/assets
+          cp -r Book/assets Book/_build/html/Book/assets
 
     # - name: Isolate and Build the Book in a Clean Directory
     #   run: |

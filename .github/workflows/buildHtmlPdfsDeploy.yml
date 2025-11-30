@@ -30,6 +30,9 @@ jobs:
           #rm -rf Book/_build
           jupyter-book build ./Book
 
+    - name: Copy Custom Assets
+      run: cp -r Book/assets _build/html/Book
+
     # - name: Isolate and Build the Book in a Clean Directory
     #   run: |
     #     mkdir clean_book_build

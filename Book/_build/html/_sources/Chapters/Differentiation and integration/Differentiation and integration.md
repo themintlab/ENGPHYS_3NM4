@@ -1,1 +1,0 @@
-# Differentiation and integration
